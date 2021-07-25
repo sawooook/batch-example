@@ -16,6 +16,7 @@ repositories {
 }
 
 dependencies {
+	runtimeOnly("mysql:mysql-connector-java")
 	implementation("org.springframework.boot:spring-boot-starter-batch")
 	implementation("org.springframework.boot:spring-boot-starter-jdbc")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")

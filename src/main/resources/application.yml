@@ -1,0 +1,9 @@
+server:
+  port: 5000
+  error:
+    whitelabel:
+      enabled: false
+
+spring:
+  profiles:
+    active: prod

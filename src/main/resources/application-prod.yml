@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://localhost:3306/test?zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=Asia/Seoul&tinyInt1isBit=false
+      username: root
+      password: asd136253!
+      driver-class-name: com.mysql.cj.jdbc.Driver
